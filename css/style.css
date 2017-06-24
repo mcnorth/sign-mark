@@ -1,14 +1,12 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
+
 
 body
 {
     
     
 }
+
+
 
 
 /************nav and header******************/
@@ -263,6 +261,23 @@ body
     font-weight: bolder;
     color: black;
     margin-top: 15px;
+}
+.product-rows
+{
+    padding: 5px;
+}
+
+.product-content
+{
+    padding-left: 40px;
+    
+}
+
+.product-content-heading
+{
+    font-size: 30px;
+    color: #8CC63E;
+    padding-bottom: 5px;
 }
 
 
