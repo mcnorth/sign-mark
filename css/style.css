@@ -1,0 +1,440 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    
+    
+}
+
+
+/************nav and header******************/
+.navbar-default
+{
+    height: 136px;
+    background-color: #8CC63E;
+    margin : 0 !important;  /*gets rid of gap between nav and content*/
+    
+}
+
+.navbar-nav
+{
+    float: right;
+    margin-top: 40px;
+    font: bold 16px sans-serif;
+}
+
+/*colour of text on navigation bar*/
+.navbar-default .navbar-nav>li>a
+{
+    color:#ffffff;
+}
+
+/*colour of text and background  on dropdown menu when mouse hovers*/
+.navbar-nav .open .dropdown-menu>li>a:hover
+{
+    color:#8CC63E;
+    background-color: #000000;
+}
+
+/*colour of text and background  on navigation menu when mouse hovers and focus*/
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover
+{
+    color:#333;
+    background-color:#ffffff;
+}
+
+/************home page image******************/
+.bgImage
+{
+    background-image: url("../images/front-img-blur.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 685px;
+    overflow: hidden;
+    position: relative;
+}
+
+.front-text-img
+{
+    position: absolute; /*parent div must have position relative to position content inside the parent div*/
+    bottom: 0;
+    width: 100%;
+    height: 160px;
+    background-color: rgba(255,255,255,0.7); /*0.7 is the transparency on the white = 70%*/
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#top-text
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/************home page 3 rect******************/
+.container-fluid
+{
+    padding: -15px;
+    margin: -15px;
+
+}
+
+.rect
+{
+    background: #58585B;
+    height: 360px;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 65px;
+    
+}
+
+.rect h3 
+{
+    font: bold 25px sans-serif;
+    color: #ffffff;
+}
+
+.rect p 
+{
+    font: normal 16px sans-serif;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#rect-btn
+{
+    margin: 25px;
+    background-color: #58585B;
+    color: #fff;
+}
+
+#rect-btn:hover
+{
+    background-color: #000000;
+}
+
+.service-area
+{
+    height: 500px;
+    position: relative;
+}
+
+/************home page about section******************/
+.about-area
+{
+    height: 450px;
+    background-color: #8CC63E;
+}
+
+.aboutUs-front-heading
+{
+    font: bold 60px sans-serif;
+    color: white;
+    margin-top: 35px;
+    
+}
+
+.aboutUs-front-text
+{
+    font: normal 18px sans-serif;
+    color: white;
+    margin-top: 40px
+        
+}
+
+#about-btn
+{
+    background-color: #8CC63E;
+    margin-top: 50px;
+    color: white;
+}
+
+#about-btn:hover
+{
+    background-color: #000000;
+}
+
+/************home page contact us section******************/
+.contactUs-front-heading
+{
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 15px;
+}
+
+.contact-section
+{
+    height: 500px;
+}
+
+/************about page******************/
+.about-page
+{
+    height: 500px;
+    margin-top: 130px;
+}
+
+.aboutUs-heading
+{
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 15px;
+}
+
+/************contact page******************/
+.contact-page
+{
+    height: 500px;
+    margin-top: 130px;
+}
+
+.contactUs-heading
+{
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 15px;
+}
+
+/************services page******************/
+.services-page
+{
+    height: 500px;
+    margin-top: 130px;
+}
+
+.services-heading
+{
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 15px;
+}
+
+/************products page******************/
+.products-page
+{
+    height: 500px;
+    margin-top: 130px;
+}
+
+.products-heading
+{
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 15px;
+}
+
+
+/************footer******************/
+.footer-home
+{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-home .footer-left,
+.footer-home .footer-center,
+.footer-home .footer-right
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-home .footer-left
+{
+	width: 40%;
+}
+
+
+
+/* Footer links */
+
+.footer-home .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-home .footer-links a
+{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-home .footer-company-name
+{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-home .footer-center
+{
+	width: 35%;
+}
+
+.footer-home .footer-center i
+{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-home .footer-center i.fa-envelope
+{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-home .footer-center p
+{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-home .footer-center p span
+{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-home .footer-center p a
+{
+	color:  #92999f;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-home .footer-right
+{
+	width: 20%;
+}
+
+.footer-home .footer-company-about
+{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-home .footer-company-about span
+{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-home .footer-icons
+{
+	margin-top: 25px;
+}
+
+.footer-home .footer-icons a
+{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) 
+{
+
+	.footer-home
+    {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-home .footer-left,
+	.footer-home .footer-center,
+	.footer-home .footer-right
+    {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-home .footer-center i
+    {
+		margin-left: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
