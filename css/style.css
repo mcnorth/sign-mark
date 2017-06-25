@@ -251,7 +251,7 @@ body
 /************products page******************/
 .products-page
 {
-    height: 500px;
+    height: 2020px;
     margin-top: 130px;
 }
 
@@ -262,9 +262,10 @@ body
     color: black;
     margin-top: 15px;
 }
-.product-rows
+
+.top-buffer
 {
-    padding: 5px;
+    margin-bottom: 5%;
 }
 
 .product-content
