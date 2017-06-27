@@ -97,9 +97,14 @@ body
 
 }
 
+.bg
+{
+    background-color: #292c2f;
+}
+
 .rect
 {
-    background: #58585B;
+    
     height: 360px;
     padding: 15px;
     margin: 15px;
@@ -117,13 +122,13 @@ body
 {
     font: normal 16px sans-serif;
     color: #ffffff;
-    padding: 20px;
+    padding: 15px;
 }
 
 #rect-btn
 {
-    margin: 25px;
-    background-color: #58585B;
+    margin-bottom: 25px;
+    background-color: #292c2f;
     color: #fff;
 }
 
@@ -142,13 +147,13 @@ body
 .about-area
 {
     height: 450px;
-    background-color: #8CC63E;
+    
 }
 
 .aboutUs-front-heading
 {
     font: bold 60px sans-serif;
-    color: white;
+    color: #292c2f;
     margin-top: 35px;
     
 }
@@ -156,7 +161,7 @@ body
 .aboutUs-front-text
 {
     font: normal 18px sans-serif;
-    color: white;
+    color: #292c2f;
     margin-top: 40px
         
 }
