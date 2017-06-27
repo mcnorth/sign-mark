@@ -190,7 +190,7 @@ body
 /************about page******************/
 .about-page
 {
-    height: 500px;
+    height: 200px;
     margin-top: 130px;
 }
 
@@ -200,6 +200,53 @@ body
     font-weight: bolder;
     color: black;
     margin-top: 15px;
+}
+
+hr
+{
+    height: 3px;
+    color: #8CC63E;
+    background-color: #8CC63E;
+    border: none;
+}
+
+.about-text
+{
+    font: normal 18px "Verdana";
+    line-height: 150%
+}
+
+.large-green
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #8CC63E;
+}
+
+.block-2-text-left
+{
+    font-size: 22px;
+}
+
+.block-2-text-right
+{
+    
+    color: black;
+    font-size: 18px;
+}
+
+.block-3-about-text
+{
+    font: normal 18px "Verdana";
+    margin-top:  45px;
+    line-height: 190%
+        
+}
+
+#rs-block2
+{
+    
+    padding: 3px;
 }
 
 /************contact page******************/
