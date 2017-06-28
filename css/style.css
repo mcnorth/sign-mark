@@ -18,6 +18,14 @@ body
     
 }
 
+.navbar-inverse
+{
+    height: 136px;
+    background-color: #8CC63E;
+    margin : 0 !important;  /*gets rid of gap between nav and content*/
+    
+}
+
 .navbar-nav
 {
     float: right;
