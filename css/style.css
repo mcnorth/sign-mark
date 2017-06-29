@@ -346,22 +346,25 @@ hr
     margin-bottom: 5%;
 }
 
-.product-content
+.product-content-odd
 {
     padding-left: 40px;
     
 }
 
+
 .product-content-heading
 {
     font-size: 30px;
-    color: #8CC63E;
-    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: #8CC63E;
+    color: white;
+    padding: 5px;
 }
 
-.product-img
+.product-content-text
 {
-    
+    padding: 5px;
 }
 
 
