@@ -329,7 +329,7 @@ hr
 /************products page******************/
 .products-page
 {
-    height: 2020px;
+    
     margin-top: 130px;
 }
 
@@ -357,6 +357,11 @@ hr
     font-size: 30px;
     color: #8CC63E;
     padding-bottom: 5px;
+}
+
+.product-img
+{
+    
 }
 
 
