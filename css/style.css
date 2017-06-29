@@ -279,7 +279,7 @@ hr
 /************services page******************/
 .services-page
 {
-    height: 600px;
+    
     margin-top: 130px;
 }
 
@@ -346,9 +346,10 @@ hr
     margin-bottom: 5%;
 }
 
-.product-content-odd
+.product-content
 {
     padding-left: 40px;
+    
     
 }
 
@@ -365,6 +366,11 @@ hr
 .product-content-text
 {
     padding: 5px;
+}
+
+.product-img
+{
+    padding-bottom: 10px;
 }
 
 
