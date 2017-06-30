@@ -99,6 +99,14 @@ body
 
 /************home page 3 rect******************/
 
+.services-front-heading
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+
 
 .bg
 {
@@ -145,9 +153,10 @@ body
 
 .service-area
 {
-    padding: 100px;
-    position: relative;
+    padding-bottom: 15px;
 }
+
+
 
 /************home page about section******************/
 .about-area
@@ -184,10 +193,190 @@ body
     background-color: #000000;
 }
 
+/************home page products section******************/
+
+.products-front-heading
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: #292c2f;
+    margin-top: 15px;
+}
+
+.single-portfolio a 
+{
+  display: block;
+  line-height: 0;
+  position: relative;
+}
+
+.single-portfolio a::before 
+{
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0.5);
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+
+.single-portfolio:hover a::before 
+{
+	opacity: .5;
+	transform: scale(1);
+}
+
+.corporate-branding::after 
+{
+  color: #fff;
+  content: "Corporate Branding";
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+
+.ill-signs::after 
+{
+    color: #fff;
+  content: "Illuminated Signs";
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+
+.way-signs::after 
+{
+    color: #fff;
+  content: "Wayfinding";
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+
+.pylon-signs::after 
+{
+    color: #fff;
+  content: "Pylon Signs";
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+
+.dig-print::after
+{
+    color: #fff;
+  content: "Digital Printing";
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+
+.lettering::after
+{
+    color: #fff;
+  content: "3D Lettering";
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+
+.stat-signs::after
+{
+    color: #fff;
+  content: "Statutory Signage";
+  font-size: 20px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+
+.single-portfolio:hover a::after 
+{
+	transform: scale(1);
+}
+
+/************home page modal******************/
+
+.modal-dialog
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-content 
+{
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.heading-for-modal
+{
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+}
+
+.modal-content-heading
+{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #8CC63E;
+    color: white;
+    padding: 5px;
+}
+
+.modal-product-text
+{
+    font-size: 16px;
+}
+
+
+
+
 /************home page contact us section******************/
 .contactUs-front-heading
 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
     color: black;
     margin-top: 15px;
