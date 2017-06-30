@@ -14,6 +14,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     
 
@@ -23,7 +24,8 @@
     
     <!--javascript.js makes the dropdown work -->
     <!--navigation bar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    
+    <nav class="navbar navbar-default navbar-fixed-top" >
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -36,53 +38,38 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 
                 <ul class="nav navbar-nav">
-                    <div class="btn-group">
-                        <button type="button" class="btn nav-buttons">Home</button>
-                    </div>
-                    
-                    <div class="btn-group">
-                        <button type="button" class="btn nav-buttons">About</button>
-                    </div>
-                    
-                    <div class="btn-group">
-                        <button type="button" class="btn nav-buttons">Services</button>
-                        <button type="button" class="btn nav-buttons dropdown-toggle" data-toggle="dropdown">
-                            <span class="caret"></span>  <!-- caret -->
-                            <span class="sr-only ">Toggle Dropdown</span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu"> <!-- class dropdown-menu -->
-                            <li><a href="#">Design</a></li>
-                            <li><a href="#">Manufacture</a></li>
-                            <li><a href="#">Installation</a></li>
-                            
+                    <li><a href="#section-top">Home</a></li>
+                    <li><a href="#section-about">About</a></li>
+                    <li><a href="#section-services">Services</a></li>
+                    <li><a href="#section-products">Products</a></li>
+                    <!--<li class="dropdown"><a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#section-services">Design</a></li>
+                            <li><a href="#section-services">Manufacture</a></li>
+                            <li><a href="#section-services">Installation</a></li>
                         </ul>
-                    </div>
-                    <div class="btn-group">
-                        <button type="button" class="btn nav-buttons">Products</button>
-                        <button type="button" class="btn nav-buttons dropdown-toggle" data-toggle="dropdown">
-                            <span class="caret"></span>  <!-- caret -->
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu"> <!-- class dropdown-menu -->
+                    </li>
+                    <li class="dropdown"><a href="products.html"class="dropdown-toggle" data-toggle="dropdown">Products<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
                             <li><a href="#corp-brand-modal" data-toggle="modal">Corporate Branding</a></li>
                             <li><a href="#ill-signs-modal" data-toggle="modal">Illuminated Signs</a></li>
                             <li><a href="#wayfinding-modal" data-toggle="modal">Wayfinding</a></li>
-                            <li><a href="#corp-brand-modal" data-toggle="modal">Pylon Signs</a></li>
-                            <li><a href="#corp-brand-modal" data-toggle="modal">Digital Printing</a></li>
-                            <li><a href="#corp-brand-modal" data-toggle="modal">3D Signage</a></li>
-                            <li><a href="#corp-brand-modal" data-toggle="modal">Statutory Signage</a></li>
+                            <li><a href="#pylon-modal" data-toggle="modal">Pylon Signs</a></li>
+                            <li><a href="#print-modal" data-toggle="modal">Digital Printing</a></li>
+                            <li><a href="#lettering-modal" data-toggle="modal">3D Signage</a></li>
+                            <li><a href="#stat-modal" data-toggle="modal">Statutory Signage</a></li>
                         </ul>
-                    </div>
-                    <div class="btn-group ">
-                        <a href="contact.html"><button type="button" class="btn nav-buttons">Contact Us</button></a>
-                    </div>
+                    </li>-->
+                    <li><a href="#section-contact">Contact Us</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     
+    
+    
     <!--image -->
-    <div class="bgImage">
+    <div class="bgImage" id="section-top">
         <div class="container-fluid front-text-img text-left">
             <div class="container">
                 <div class="row">
@@ -101,14 +88,35 @@
                     </div>
                     <div class="col-xs-1"></div>
                 </div>
+                
             </div>
         </div>
     </div>
     
+    <div class="container-fluid about-bg" id="section-about">
+        <div class="container text-center about-area">
+            <div class="row" >
+                    <p class="aboutUs-front-heading">ABOUT US</p>
+                </div>
+        
+        
+        
+        
+        
+        </div>
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
     <!--3 rectangle area -->
-    <div class="container-fluid bg">
-    <div class="container service-area">
-        <div class="row text-center">
+    <div class="container-fluid bg" id="section-services">
+    <div class="container service-area" >
+        <div class="row text-center" >
                     <p class="services-front-heading">SERVICES</p>
                 </div>
         
@@ -119,7 +127,7 @@
                     </div>
                     <h3>DESIGN</h3>
                     <p>Signmark offers services in the creation and development of your identity. You will work along side our qualified team.</p>
-                    <a href="services.html"><button type="button" id="rect-btn" class="btn btn-default">More Info</button></a>
+                    <a href="services.html"><button type="button" id="rect-btn" class="btn btn-default btn-lg">More Info</button></a>
                 </div>
             </div>
             
@@ -130,7 +138,7 @@
                     </div>
                     <h3>MANUFACTURE</h3>
                     <p>Signmark's manufacturing is of the highest standard and exceeding industry standards and requirements.</p>
-                    <a href="services.html"><button type="button" id="rect-btn" class="btn btn-default">More Info</button></a>
+                    <a href="services.html"><button type="button" id="rect-btn" class="btn btn-default btn-lg">More Info</button></a>
                 </div>
             </div>
             
@@ -141,7 +149,7 @@
                     </div>
                     <h3>INSTALLATION</h3>
                     <p>Our professional installation teams ensure that your final product will always exceed your expectations.</p>
-                    <a href="services.html"><button type="button" onclick="services.html" id="rect-btn" class="btn btn-default">More Info</button></a>
+                    <a href="services.html"><button type="button" onclick="services.html" id="rect-btn" class="btn btn-default btn-lg">More Info</button></a>
                 </div>
             </div
         </div>
@@ -150,7 +158,7 @@
         
        <!--product area -->
         
-        <div class="contaner-fluid product-bg ">
+        <div class="contaner-fluid product-bg " id="section-products">
             <div class="container product-area">
                 <div class="row text-center">
                     <p class="products-front-heading">PRODUCTS</p>
@@ -396,7 +404,9 @@
     
     
     <!--contact us area -->
-    <div class="container text-center contact-section">
+        <div class="container-fluid contact-bg">
+    <div class="container text-center contact-section" id="section-contact">
+        
         <div class="row">
             <p class="contactUs-front-heading">CONTACT US</p>
         </div>
@@ -455,6 +465,7 @@
             </div>
         </form>
     </div>
+            </div>
     
     <!--footer -->
     <footer class="footer-home">
@@ -503,9 +514,10 @@
         
         
         
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/js/bootstrap-modal.js"></script>
-    <script src="js/jquery-3.2.1.slim.min.js"></script>
+   
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/js/bootstrap-modal.js"></script>
+    
     <script src="js/tether.min.js"></script>
     <script src="js/javascript.js"></script>
     <script src="js/bootstrap.js"></script>
