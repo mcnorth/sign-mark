@@ -101,14 +101,14 @@ body
 {
     font-size: 50px;
     font-weight: bold;
-    color: #292c2f;
+    color: white;
     margin-top: 15px;
 }
 
 
 .bg
 {
-    background-color: white;
+    background-color: #292c2f;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -158,13 +158,14 @@ body
 /************home page about section******************/
 .about-bg
 {
-    height: 600px;
-    background-color: #8CC63E;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #e9eae9;
 }
 
 .aboutUs-front-heading
 {
-    font: bold 60px sans-serif;
+    font: bold 50px sans-serif;
     color: #292c2f;
     margin-top: 35px;
     
@@ -194,7 +195,7 @@ body
 
 .product-bg
 {
-    background-color: #292c2f;
+    background-color: #e9eae9;
     padding-top: 130px;
     padding-bottom: 130px;
 }
@@ -202,7 +203,7 @@ body
 {
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: #292c2f;
     margin-top: 15px;
 }
 
