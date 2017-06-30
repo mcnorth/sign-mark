@@ -14,46 +14,27 @@ body
 {
     height: 136px;
     background-color: #8CC63E;
+    border-color: #8CC63E;
     margin : 0 !important;  /*gets rid of gap between nav and content*/
+    
     
 }
 
-.navbar-inverse
-{
-    height: 136px;
-    background-color: #8CC63E;
-    margin : 0 !important;  /*gets rid of gap between nav and content*/
-    
-}
+
 
 .navbar-nav
 {
     float: right;
     margin-top: 40px;
     font: bold 16px sans-serif;
+    
 }
 
-.nav-buttons
+/*colour of text on navigation bar*/
+.navbar-default .navbar-nav>li>a
 {
-    background-color: #8CC63E;
-    color: white;
-    font: bold 16px sans-serif;
-    padding: 15px;
+    color:#ffffff;
 }
-
-.nav-buttons:hover
-{
-    background-color: white;
-}
-
-.nav-buttons:active
-{
-    background-color: white;
-    color: black;
-}
-
-
-
 
 
 /*colour of text and background  on dropdown menu when mouse hovers*/
@@ -76,7 +57,7 @@ body
     background-image: url("../images/front-img-blur.jpg");
     background-position: center center;
     background-size: cover;
-    height: 685px;
+    height: 960px;
     overflow: hidden;
     position: relative;
 }
@@ -128,8 +109,8 @@ body
 .bg
 {
     background-color: #292c2f;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .icon
@@ -141,7 +122,7 @@ body
 
 .rect
 {
-
+    background-color: #292c2f;
     padding: 15px;
 }
 
@@ -167,26 +148,24 @@ body
 
 #rect-btn:hover
 {
-    background-color: #000000;
+    background-color: #8CC63E;
 }
 
-.service-area
-{
-    padding-bottom: 15px;
-}
+
 
 
 
 /************home page about section******************/
-.about-area
+.about-bg
 {
-    height: 450px;
-    
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #e9eae9;
 }
 
 .aboutUs-front-heading
 {
-    font: bold 60px sans-serif;
+    font: bold 50px sans-serif;
     color: #292c2f;
     margin-top: 35px;
     
@@ -216,8 +195,9 @@ body
 
 .product-bg
 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    background-color: #e9eae9;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 .products-front-heading
 {
@@ -406,9 +386,10 @@ body
     margin-top: 15px;
 }
 
-.contact-section
+.contact-bg
 {
-    
+    background-color: white;
+    padding-top: 100px
 }
 
 /************about page******************/
@@ -597,7 +578,7 @@ hr
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
-	margin-top: 80px;
+	
 }
 
 .footer-home .footer-left,
