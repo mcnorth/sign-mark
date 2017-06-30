@@ -33,11 +33,28 @@ body
     font: bold 16px sans-serif;
 }
 
-/*colour of text on navigation bar*/
-.navbar-default .navbar-nav>li>a
+.nav-buttons
 {
-    color:#ffffff;
+    background-color: #8CC63E;
+    color: white;
+    font: bold 16px sans-serif;
+    padding: 15px;
 }
+
+.nav-buttons:hover
+{
+    background-color: white;
+}
+
+.nav-buttons:active
+{
+    background-color: white;
+    color: black;
+}
+
+
+
+
 
 /*colour of text and background  on dropdown menu when mouse hovers*/
 .navbar-nav .open .dropdown-menu>li>a:hover
@@ -111,6 +128,8 @@ body
 .bg
 {
     background-color: #292c2f;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .icon
@@ -195,6 +214,11 @@ body
 
 /************home page products section******************/
 
+.product-bg
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .products-front-heading
 {
     font-size: 50px;

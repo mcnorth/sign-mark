@@ -34,29 +34,48 @@
                 <a class="navbar-brand" href="index.html"><img src="images/front-logo-white.png"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
+                
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="dropdown"><a href="services.html"class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="services.html">Design</a></li>
-                            <li><a href="services.html">Manufacture</a></li>
-                            <li><a href="services.html">Installation</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="products.html"class="dropdown-toggle" data-toggle="dropdown">Products<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="products.html">Corporate Branding</a></li>
-                            <li><a href="products.html">Illuminated Signs</a></li>
-                            <li><a href="products.html">Wayfinding</a></li>
-                            <li><a href="products.html">Pylon Signs</a></li>
-                            <li><a href="products.html">Wide Format Digital Printing</a></li>
-                            <li><a href="products.html">3D Signage</a></li>
-                            <li><a href="products.html">Statutory Signage</a></li>
+                    <div class="btn-group">
+                        <button type="button" class="btn nav-buttons">Home</button>
+                    </div>
+                    
+                    <div class="btn-group">
+                        <button type="button" class="btn nav-buttons">About</button>
+                    </div>
+                    
+                    <div class="btn-group">
+                        <button type="button" class="btn nav-buttons">Services</button>
+                        <button type="button" class="btn nav-buttons dropdown-toggle" data-toggle="dropdown">
+                            <span class="caret"></span>  <!-- caret -->
+                            <span class="sr-only ">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu"> <!-- class dropdown-menu -->
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Manufacture</a></li>
+                            <li><a href="#">Installation</a></li>
                             
                         </ul>
-                    </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn nav-buttons">Products</button>
+                        <button type="button" class="btn nav-buttons dropdown-toggle" data-toggle="dropdown">
+                            <span class="caret"></span>  <!-- caret -->
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu"> <!-- class dropdown-menu -->
+                            <li><a href="#corp-brand-modal" data-toggle="modal">Corporate Branding</a></li>
+                            <li><a href="#ill-signs-modal" data-toggle="modal">Illuminated Signs</a></li>
+                            <li><a href="#wayfinding-modal" data-toggle="modal">Wayfinding</a></li>
+                            <li><a href="#corp-brand-modal" data-toggle="modal">Pylon Signs</a></li>
+                            <li><a href="#corp-brand-modal" data-toggle="modal">Digital Printing</a></li>
+                            <li><a href="#corp-brand-modal" data-toggle="modal">3D Signage</a></li>
+                            <li><a href="#corp-brand-modal" data-toggle="modal">Statutory Signage</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group ">
+                        <a href="contact.html"><button type="button" class="btn nav-buttons">Contact Us</button></a>
+                    </div>
                 </ul>
             </div>
         </div>
@@ -175,12 +194,12 @@
                 <br>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="single-portfolio">
-                            <a  href="#stat-modal" class="stat-signs" data-toggle="modal"><img class="img-responsive" src="images/ss-img-home.jpg" alt="One" /></a>
-                        </div>
+                        
                     </div>
                     <div class="col-md-4">
-                        
+                        <div class="single-portfolio">
+                            <a  href="#stat-modal" class="stat-signs" data-toggle="modal"><img class="img-responsive" src="images/ss-img-home.jpg" alt="One" /></a>
+                        </div>   
                     </div>
                     <div class="col-md-4">
                         
@@ -208,7 +227,7 @@
                                     <img src="images/cb-img-home.jpg" class="img-responsive img-centered" alt="">
                                     <br>
                                     <p class="modal-product-text">At Signmark we understand that the integrity and consistency of your brand are paramount. We manufacture and install signage to the exacting standards that you expect, true to your style guides and specifications.<br> Signmark has the capabilities to manage multi site rollouts and rebrands working in partnership with you, guaranteeing clear communications and reporting to complete your project on time, within budget and exceed your expectations.</p>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                    <button type="button" style="background-color: #8CC63E" class="btn btn-default btn-lg" data-dismiss="modal">Back to Home Page</button>
                                 </div>
                             </div>
                         </div>
@@ -234,7 +253,7 @@
                                     <img src="images/il-img-home.jpg" class="img-responsive img-centered" alt="illuminated signs">
                                     <br>
                                     <p class="modal-product-text">What's the best value and hardest working sales tool your business can employ? An effective Illuminated Sign supplied by Signmark, working day and night to lift your brand above the pack and deliver maximum impact.<br> At Signmark we pride ourselves on being at the cutting edge of new technology to provide you with the most efficient and economical illuminated signage including 3D Lettering and Backlit Signs employing the latest power saving LED technology as well as traditional Neon Signs and Lighting.</p>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                    <button type="button" style="background-color: #8CC63E" class="btn btn-default btn-lg" data-dismiss="modal">Back to Home Page</button>
                                 </div>
                             </div>
                         </div>
@@ -260,7 +279,7 @@
                                     <img src="images/wf-img-home.jpg" class="img-responsive img-centered" alt="wayfinding">
                                     <br>
                                     <p class="modal-product-text">From Directory Boards through Modular Signage Systems to Large Outdoor Wayfinding Totems, Signmark will assist you to achieve maximum results with cost effective, low maintenance products individually suited to your needs. We offer a diverse range of signage and systems suitable for Retail, Healthcare, Education, Public Spaces and many more applications.</p>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                    <button type="button" style="background-color: #8CC63E" class="btn btn-default btn-lg" data-dismiss="modal">Back to Home Page</button>
                                 </div>
                             </div>
                         </div>
@@ -286,7 +305,7 @@
                                     <img src="images/ps-img-home.jpg" class="img-responsive img-centered" alt="pylon signs">
                                     <br>
                                     <p class="modal-product-text">Want your business to be noticed above the rest? A quality Pylon Sign by Signmark is the answer! All Signmark Pylon Signs are built to exacting Engineer's standards and can be tailor made to suit your business' individual requirements, incorporating 3D Lettering, Flexface Signfaces, LED Screen Displays, etc. Signmark provides the complete Pylon Sign service from design, engineer certification, local government permit applications, underground services surveys and installation.</p>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                    <button type="button" style="background-color: #8CC63E" class="btn btn-default btn-lg" data-dismiss="modal">Back to Home Page</button>
                                 </div>
                             </div>
                         </div>
@@ -312,7 +331,7 @@
                                     <img src="images/dp-img-home.jpg" class="img-responsive img-centered" alt="digital printing">
                                     <br>
                                     <p class="modal-product-text">Employing some of the most sophisticated wide format printing technology, Signmark will turn your ideas into reality and maximise your brand's value. We supply printing on a range of substrates, offering solutions for your every need, including Banners, Illuminated Flexface, Window Graphics, Point of Sale Displays, Event Signage and much more.</p>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                    <button type="button" style="background-color: #8CC63E" class="btn btn-default btn-lg" data-dismiss="modal">Back to Home Page</button>
                                 </div>
                             </div>
                         </div>
@@ -338,7 +357,7 @@
                                     <img src="images/3D-img-home.jpg" class="img-responsive img-centered" alt="3d lettering">
                                     <br>
                                     <p class="modal-product-text">Whether employed in exterior or interior situations, three dimensional signage adds appeal to your image. Signmark manufactures many types of 3D Signage ranging from Laser or CNC Profile Cut Acrylic, Stainless Steel or Alloy Letters and Logos through to Illuminated and Non-Illuminated Fabricated Letters and Logos using a diverse range of materials including Plastics and Metal.</p>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                    <button type="button" style="background-color: #8CC63E" class="btn btn-default btn-lg" data-dismiss="modal">Back to Home Page</button>
                                 </div>
                             </div>
                         </div>
@@ -364,7 +383,7 @@
                                     <img src="images/ss-img-home.jpg" class="img-responsive img-centered" alt="statutory signage">
                                     <br>
                                     <p class="modal-product-text">Signmark can fulfil all your Statutory Signage requirements, including Braille and Tactile Signs, Tactile Indicators and all signage required to be installed in accordance with the Building Code of Australia. All Signmark Statutory Signs comply with Australian Standards and are installed at correct viewing heights. Send us your plans and we will prepare a schedule for your building project.</p>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                    <button type="button" style="background-color: #8CC63E" class="btn btn-default btn-lg" data-dismiss="modal">Back to Home Page</button>
                                 </div>
                             </div>
                         </div>
