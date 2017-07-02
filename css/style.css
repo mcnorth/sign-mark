@@ -16,32 +16,21 @@ body
     background-color: #8CC63E;
     border-color: #8CC63E;
     margin : 0 !important;  /*gets rid of gap between nav and content*/
-    
-    
 }
-
-
 
 .navbar-nav
 {
     float: right;
     margin-top: 40px;
-    font: bold 16px sans-serif;
-    
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;    
 }
 
 /*colour of text on navigation bar*/
 .navbar-default .navbar-nav>li>a
 {
     color:#ffffff;
-}
-
-
-/*colour of text and background  on dropdown menu when mouse hovers*/
-.navbar-nav .open .dropdown-menu>li>a:hover
-{
-    color:#8CC63E;
-    background-color: #000000;
 }
 
 /*colour of text and background  on navigation menu when mouse hovers and focus*/
@@ -72,45 +61,66 @@ body
     padding: 15px;
 }
 
-.left-side
-{
-    margin-top: 0.1%;
-    
-        
-}
-
 .right-side
-{
-    margin-top: 2%;
-    font: normal 16px sans-serif;
-    
-
+{    
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
 #rs
-{
-    
+{ 
     padding: 5px;
+}
+
+/************home page about section******************/
+
+.about-bg
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e9eae9;
+}
+
+
+.aboutUs-front-text
+{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;   
+    color: #292c2f;      
+}
+
+#about-btn
+{
+    background-color: #8CC63E;
+    margin-top: 50px;
+    color: white;
+}
+
+#about-btn:hover
+{
+    background-color: #000000;
 }
 
 
 
-/************home page 3 rect******************/
+/************home page services area******************/
 
 .services-front-heading
 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 700;
     color: white;
-    margin-top: 15px;
+   
 }
 
 
 .bg
 {
     background-color: #292c2f;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .icon
@@ -128,13 +138,16 @@ body
 
 .rect h3 
 {
-    font: bold 25px sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
     color: #ffffff;
 }
 
 .rect p 
 {
-    font: normal 16px sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
     color: #ffffff;
     padding: 15px;
 }
@@ -155,41 +168,6 @@ body
 
 
 
-/************home page about section******************/
-.about-bg
-{
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background-color: #e9eae9;
-}
-
-.aboutUs-front-heading
-{
-    font: bold 50px sans-serif;
-    color: #292c2f;
-    margin-top: 35px;
-    
-}
-
-.aboutUs-front-text
-{
-    font: normal 18px sans-serif;
-    color: #292c2f;
-    margin-top: 40px
-        
-}
-
-#about-btn
-{
-    background-color: #8CC63E;
-    margin-top: 50px;
-    color: white;
-}
-
-#about-btn:hover
-{
-    background-color: #000000;
-}
 
 /************home page products section******************/
 
@@ -201,10 +179,11 @@ body
 }
 .products-front-heading
 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 700;
     color: #292c2f;
-    margin-top: 15px;
+    
 }
 
 .single-portfolio a 
@@ -235,100 +214,107 @@ body
 
 .corporate-branding::after 
 {
-  color: #fff;
-  content: "Corporate Branding";
-  font-size: 20px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 50%;
-  transform: scale(0);
-  transition: all 0.3s ease 0s;
+    color: #fff;
+    content: "Corporate Branding";
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
 }
 
 .ill-signs::after 
 {
     color: #fff;
-  content: "Illuminated Signs";
-  font-size: 20px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 50%;
-  transform: scale(0);
-  transition: all 0.3s ease 0s;
+    content: "Illuminated Signs";
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
 }
 
 .way-signs::after 
 {
     color: #fff;
-  content: "Wayfinding";
-  font-size: 20px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 50%;
-  transform: scale(0);
-  transition: all 0.3s ease 0s;
+    content: "Wayfinding";
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
 }
 
 .pylon-signs::after 
 {
     color: #fff;
-  content: "Pylon Signs";
-  font-size: 20px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 50%;
-  transform: scale(0);
-  transition: all 0.3s ease 0s;
+    content: "Pylon Signs";
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
 }
 
 .dig-print::after
 {
     color: #fff;
-  content: "Digital Printing";
-  font-size: 20px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 50%;
-  transform: scale(0);
-  transition: all 0.3s ease 0s;
+    content: "Digital Printing";
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
 }
 
 .lettering::after
 {
     color: #fff;
-  content: "3D Lettering";
-  font-size: 20px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 50%;
-  transform: scale(0);
-  transition: all 0.3s ease 0s;
+    content: "3D Lettering";
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
 }
 
 .stat-signs::after
 {
     color: #fff;
-  content: "Statutory Signage";
-  font-size: 20px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 50%;
-  transform: scale(0);
-  transition: all 0.3s ease 0s;
+    content: "Statutory Signage";
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
 }
 
 .single-portfolio:hover a::after 
@@ -338,32 +324,12 @@ body
 
 /************home page modal******************/
 
-.modal-dialog
-{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.modal-content 
-{
-  height: auto;
-  min-height: 100%;
-  border-radius: 0;
-}
-
-.heading-for-modal
-{
-    font-size: 60px;
-    font-weight: bolder;
-    color: black;
-}
 
 .modal-content-heading
 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 600;
     background-color: #8CC63E;
     color: white;
     padding: 5px;
@@ -371,19 +337,27 @@ body
 
 .modal-product-text
 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 
+.modal-button
+{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #8CC63E;
+    color: white;
+}
 
 
 
 /************home page contact us section******************/
 .contactUs-front-heading
 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 50px;
-    font-weight: bolder;
+    font-weight: 700;
     color: black;
-    margin-top: 15px;
+    
 }
 
 .contact-bg
@@ -392,18 +366,31 @@ body
     padding-top: 100px
 }
 
+.btn-send
+{
+    background-color: #8CC63E;
+}
+
+.btn-send:hover
+{
+    background-color: #292c2f;
+}
+
+
+
 /************about page******************/
 .about-page
 {
-    height: 200px;
+    
     margin-top: 130px;
 }
 
 .aboutUs-heading
 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 60px;
-    font-weight: bolder;
-    color: black;
+    font-weight: 700;
+    color: #292c2f;
     margin-top: 15px;
 }
 
@@ -418,8 +405,10 @@ hr
 
 .about-text
 {
-    font: normal 18px "Verdana";
-    line-height: 150%
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    
+    
 }
 
 .large-green
@@ -429,13 +418,10 @@ hr
     color: #8CC63E;
 }
 
-.block-2-text-left
-{
-    font-size: 22px;
-}
 
 .block-2-text-right
 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     
     color: black;
     font-size: 18px;
@@ -443,9 +429,9 @@ hr
 
 .block-3-about-text
 {
-    font: normal 18px "Verdana";
-    margin-top:  45px;
-    line-height: 190%
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    
         
 }
 
@@ -455,20 +441,11 @@ hr
     padding: 3px;
 }
 
-/************contact page******************/
-.contact-page
+.block-3-tick
 {
-    
-    margin-top: 130px;
+    padding-bottom: 15px;
 }
 
-.contactUs-heading
-{
-    font-size: 60px;
-    font-weight: bolder;
-    color: black;
-    margin-top: 15px;
-}
 
 /************services page******************/
 .services-page
@@ -484,9 +461,10 @@ hr
 
 .services-heading
 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 60px;
-    font-weight: bolder;
-    color: black;
+    font-weight: 700;
+    color: #292c2f;
     margin-top: 15px;
 }
 
@@ -520,52 +498,21 @@ hr
     top:0%;
 }
 
-/************products page******************/
-.products-page
+.services-caption-heading
 {
-    
-    margin-top: 130px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
 }
 
-.products-heading
+.services-caption-text
 {
-    font-size: 60px;
-    font-weight: bolder;
-    color: black;
-    margin-top: 15px;
-}
-
-.top-buffer
-{
-    margin-bottom: 5%;
-}
-
-.product-content
-{
-    padding-left: 40px;
-    
-    
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 
-.product-content-heading
-{
-    font-size: 30px;
-    font-weight: bold;
-    background-color: #8CC63E;
-    color: white;
-    padding: 5px;
-}
-
-.product-content-text
-{
-    padding: 5px;
-}
-
-.product-img
-{
-    padding-bottom: 10px;
-}
 
 
 /************footer******************/
@@ -576,7 +523,8 @@ hr
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
 	padding: 55px 50px;
 	
 }
@@ -600,7 +548,8 @@ hr
 
 /* Footer links */
 
-.footer-home .footer-links{
+.footer-home .footer-links
+{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
@@ -612,6 +561,11 @@ hr
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
+}
+
+.footer-links a:hover
+{
+    color: #8CC63E;
 }
 
 .footer-home .footer-company-name
@@ -697,28 +651,9 @@ hr
 	margin-bottom: 20px;
 }
 
-.footer-home .footer-icons
-{
-	margin-top: 25px;
-}
 
-.footer-home .footer-icons a
-{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
 
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
 
-	margin-right: 3px;
-	margin-bottom: 5px;
-}
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -727,7 +662,9 @@ hr
 
 	.footer-home
     {
-		font: bold 14px sans-serif;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: bold;
+        font-size: 14px;
 	}
 
 	.footer-home .footer-left,
